@@ -1,0 +1,25 @@
+# Data & corpus (not redistributed)
+AraPlagDet.zip
+data/
+
+# Generated outputs
+results/
+saved_models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Large binaries
+*.npy
+*.pt
+*.bin
+*.safetensors
