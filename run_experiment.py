@@ -4,18 +4,21 @@
   WSD-Enhanced Arabic Plagiarism Detection — Complete Experiment Pipeline
 ==============================================================================
   
-  ملف واحد يشغّل كل شيء: استخراج البيانات، التضخيم، التدريب، التقييم
-  
-  الاستخدام:
-    1. ضع AraPlagDet.zip و AWN.txt في نفس مجلد هذا الملف
-    2. افتح VS Code → Terminal → شغّل:
-       python run_experiment.py
-    
-  المتطلبات:
-    pip install torch transformers scikit-learn numpy pandas tqdm
+Single file that runs everything: data extraction, data augmentation, training, and evaluation.
 
-  المدة المتوقعة: 3-5 ساعات على RTX GPU
-  النتائج: results/all_results.json + results/tables.txt
+Usage:
+  1. Place AraPlagDet.zip and AWN.txt in the same folder as this file.
+  2. Open VS Code → Terminal → run:
+     python run_experiment.py
+
+Requirements:
+  pip install torch transformers scikit-learn numpy pandas tqdm
+
+Estimated runtime: 3–5 hours on an RTX GPU.
+
+Outputs:
+  results/all_results.json
+  results/tables.txt
 ==============================================================================
 """
 
